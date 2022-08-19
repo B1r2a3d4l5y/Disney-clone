@@ -10,6 +10,7 @@
     <style>
         body{
             margin: 10px;
+            background-color: black;
         }
         .login{
             display: inline-block;
@@ -25,11 +26,46 @@
             right: 10px;
             white-space: nowrap;
 
+
         }
-        .logo {
+        .logo{
+            position: absolute;
+          height:70px ;
+          width: 100px;
+          top:0;
+          left: 460px;
+          text-align: center;
+          text-decoration: none;
+          margin-top: 200px;
+          padding: 0;
+          box-shadow: none;
+          
+
+        }
+        .more {
             display: inline-block;
             position: absolute;
-            
+            color: white;
+            font-size: 40px;
+            top: 0;
+            margin-top: 500px;
+            left: 650px;
+        
+        }
+        .signin {
+            position: absolute;
+            display: inline-block;
+            width: 300px;
+            background-color: blue;
+            color: white;
+            top: 0;
+            margin-top:  600px; 
+            left: 720px;
+
+        }
+        .hr {
+            width: 300%;
+            border: 1px solid blue;
         }
     </style>
 </head>
@@ -38,12 +74,17 @@
     <form class="form col-lg-6 col-md-6 col-sm-12 col-xs-12">
         <button class="login" type="submit">Log In</button>
         <img src="img/bg-img.webp" class="bg-img img-responsive">
-        <a class="logo nav navbar-brand" ><img src="img/logo.jpeg"></a>
+        <a class="logo navbar-brand"><img class="logo img-responsive" src="img/logo.svg" ></a>
+        <p class="more">+ More than you ever imangine</p>
+        <button class="signin" type="submit">Sign in</button> 
+
     
 
         
     </form>
+    
   </div>
+  <hr class="hr col-lg-6 col-md-6  col-sm-12 col-xs-12">
     
 </body>
 </html>
