@@ -9,8 +9,9 @@
     <title>Home Page</title>
     <style>
         body{
-            margin: 10px;
             background-color: black;
+            height: 200px;
+            width: 200px;
         }
         .login{
             display: inline-block;
@@ -64,17 +65,78 @@
 
         }
         .hr {
-            width: 300%;
+            width: 1000%;
             border: 1px solid blue;
+        }
+        .entertain {
+            display: flex;
+            position: relative;
+            margin-bottom: 50px;
+            justify-content: center;
+            align-items: center;
+            left: 50px;
+
+        }
+        .endless {
+           display: inline-block;
+           position: relative;
+           color :white;
+           overflow: hidden;
+           text-align: center;
+           justify-content: center;
+           align-items: center;
+           margin-bottom: 300px;
+           white-space: nowrap;
+           left: 70px;
+
+    
+        }
+        .description_entertain{
+            display: inline-block;
+            position: absolute;
+            color:gray;
+            font-size: 30px;
+            text-align: center;
+            margin-top: -250px;
+            width: 40%;
+            color: gray;
+            font-size: 30px;
+            left: 10px;
+            padding: 20px;
+
+
+        
+            
+            
+
+            
+
+
+            
+    
+        }
+        .TV {
+            display: flex;
+            position: absolute;
+            margin-top: -490px;
+            justify-content: center;
+            align-items: center;
+            left: 490px;
+
+        }
+        .aviable {
+            display: inline-block;
+            position: absolute;
         }
     </style>
 </head>
 <body>
-  <div class="first_section">
+    <main class="main">
+        div class="first_section">
     <form class="form col-lg-6 col-md-6 col-sm-12 col-xs-12">
         <button class="login" type="submit">Log In</button>
-        <img src="img/bg-img.webp" class="bg-img img-responsive">
-        <a class="logo navbar-brand"><img class="logo img-responsive" src="img/logo.svg" ></a>
+        <img src="img/bg-img.webp" class="bg-img img-responsive" alt="background-image">
+        <a class="logo navbar-brand"><img class="logo img-responsive" src="img/logo.svg" alt="Logo" ></a>
         <p class="more">+ More than you ever imangine</p>
         <button class="signin" type="submit">Sign in</button> 
 
@@ -82,9 +144,20 @@
 
         
     </form>
-    
+   
   </div>
   <hr class="hr col-lg-6 col-md-6  col-sm-12 col-xs-12">
+  <div class="section-2 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+      <img src="img/entertaiment.png" class="entertain img-responsive" alt="film">
+      <h1 class="endless ">Endless Entertainment</h1>
+      <p class="description_entertain">Explore thousands of hours of TV series, movies and orginals from all the wonderful worlds of Disney+ </p>
+      <img src="img/Tv.png" class="TV img-responsive" alt="devices" >
+      <h1 class="aviable">Avaible on selected devices</h1>
+  </div>
+
+    </main>
+  
+ 
     
 </body>
 </html>
