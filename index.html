@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
     <title>Home Page</title>
     <style>
         body{
@@ -310,6 +312,7 @@
             margin: 50px;
             left: 180px;
             font-size: 20px;
+            white-space: nowrap;
             
            
         }
@@ -372,8 +375,10 @@
         .mobile_img{
             display: inline-block;
             position: relative;
-            bottom: 900px;
+            bottom: 930px;
             left: 1300px;
+            justify-content: center;
+            align-items: center;
         }
         .mobileandtablet{
             display: inline-block;
@@ -408,24 +413,101 @@
             display: inline-block;
             position: relative;
             color: white;
+            bottom: 30px;
+            left: 20px;
+            text-align: center;
+            justify-content: center;
+        }
+        .support{
+            display: inline-block;
+            position: relative;
+            color: gray;
+            left: 25px;
+            white-space: nowrap;
+
+        }
+        .support:hover {
+            cursor: pointer;
+        }
+        .intrest {
+            display: inline-block;
+            position: relative;
+            color: gray;
+            white-space: nowrap;
+            left: 20px;
+        }
+        .intrest:hover{
+            cursor: pointer;
         }
         .website{
             display: inline-block;
             position: relative;
             color: white;
             white-space: nowrap;
-            bottom:90px;
+            bottom:150px;
             left: 500px;
 
         }
+        .bi-icon {
+            display: inline-block;
+            position: relative;
+            font-size: 30px;
+            color: grey;
+            bottom: 150px;
+            left: 500px;
+        }
+        .english {
+            display: inline-block;
+            position: relative;
+            color: grey;
+            top: -180px;
+            left: 550px;
+            text-align: center;
+            justify-content: center;
+        }
+        .english:hover {
+            cursor: pointer;
+        }
+
         .need {
             display: inline-block;
             position: relative;
             color: white;
             white-space: nowrap;
-            bottom: 600px;
-            left: 900px;
+            top: -300px;
+            left: 1300px;
         }
+        .help {
+            display: inline-block;
+            position: absolute;
+            color: grey;
+            margin-top: -250px;
+            margin-left: 1200px;
+            white-space: nowrap;
+            text-align: center;
+            justify-content: center;
+        }
+        .feedback {
+            display: inline-block;
+            position: relative;
+            color: grey;
+            bottom: 250px;
+            left: 1300px;
+            text-align: center;
+            justify-content: center;
+            white-space: nowrap;
+
+        }
+        .connect {
+            display: inline-block;
+            position: relative;
+            color: white;
+            bottom: 450px;
+            right: -1900px;
+            margin: 90px;
+            white-space: nowrap;
+        }
+
 
         
     </style>
@@ -482,12 +564,12 @@
     <p class="chromecast">chromecast</p>
     <p class="LG">LG TV</p>
     <p class="samsung">Samsung</p>
-    <img src="img/computer.png" class="computer_symbol img-responsive">
+    <img src="img/computer.png" class="computer_symbol img-responsive" alt="computer">
     <h1 class="computer">computer</h1>
     <p class="chrome">Chrome OS</p>
     <p class="mac">Mac OS</p>
     <p class="windows">Windows PC</p>
-    <img src="img/mobile.png" class="mobile_img img-responsive">
+    <img src="img/mobile.png" class="mobile_img  img-responsive"  alt="mobile_img">
     <h1 class="mobileandtablet">Mobile & Tablet</h1>
     <p class="phones">Anroid Phones & Tablets</p>
     <p class="iphone">iPhone & iPad</p>
@@ -497,8 +579,15 @@
   <!--footer-->
   <footer class="footer col-lg-6 col-md-6 col-sm-12 col-xs-12">
     <h1 class="company">Company</h1>
+    <p class="support">Supported Devices</p>
+    <p class="intrest">Intrest based Ads</p>
     <h1 class="website">View Website in</h1>
+    <span class="bi-icon"><i class="bi bi-check-lg "></i></span>
+    <p class="english">English</p>
     <h1 class="need">Need Help?</h1>
+    <p class="help">Help</p>
+    <p class="feedback">Feedback</p>
+    <h1 class="connect">Connect with us</h1>
   </footer>
 
     </main>
