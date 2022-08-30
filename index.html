@@ -375,7 +375,7 @@
         .mobile_img{
             display: inline-block;
             position: relative;
-            bottom: 930px;
+            top: -910px;
             left: 1300px;
             justify-content: center;
             align-items: center;
@@ -481,10 +481,10 @@
         }
         .help {
             display: inline-block;
-            position: absolute;
+            position: relative;
             color: grey;
-            margin-top: -300px;
-            margin-left: 1300px;
+            top:  -300px;
+            right: -1300px;
             white-space: nowrap;
             text-align: center;
             justify-content: center;
@@ -494,7 +494,7 @@
             display: inline-block;
             position: relative;
             color: grey;
-            bottom: 260px;
+            bottom: 300px;
             left: 1300px;
             text-align: center;
             justify-content: center;
@@ -506,7 +506,7 @@
             display: inline-block;
             position: relative;
             color: white;
-            bottom: 450px;
+            bottom: 500px;
             right: -1900px;
             margin: 90px;
             white-space: nowrap;
@@ -514,17 +514,44 @@
         .facebook {
             display: inline-block;
             position:relative;
-            top:  -500px;
+            top:  -580px;
             left: 2000px;
             font-size: 30px;
             color: grey;
         }
+        .facebook:hover {
+            cursor: pointer;
+
+        }
         .twitter {
-            display: flex;
+            display: inline-block;
             position: relative;
-            top: -15000;
-            left: 15000;
+            bottom: 620px;
+            left: 2100px;
             font-size: 30px ;
+            justify-content: center;
+            align-items:  center;
+            overflow: hidden;
+            white-space: nowrap;
+            height: 100%;
+            width: 100%;
+            color: grey;
+        }
+        .twitter:hover {
+            cursor: pointer;
+        }
+        .instagram {
+            display: inline-block;
+            position: relative;
+            bottom: 665px ;
+            left: 2200px;
+            font-size: 30px;
+            justify-content: center;
+            align-items: center;
+            color: grey;
+        }
+        .instagram:hover {
+            cursor: pointer;
         }
 
 
@@ -609,6 +636,7 @@
     <h1 class="connect">Connect with us</h1>
     <span class="facebook"><i class="bi bi-facebook"></i></span>
     <span class="twitter"><i class="bi bi-twitter"></i></span>
+    <span class="instagram"><i class="bi bi-instagram"></i></span>
   </footer>
 
     </main>
