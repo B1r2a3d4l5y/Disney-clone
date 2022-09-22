@@ -8,3 +8,11 @@ CSS
 Bootstrap
 
 
+
+Langauges used 
+
+HTML
+JS
+
+Libiries used 
+Bootstrap and Bootstrap-icons
