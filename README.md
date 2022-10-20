@@ -16,3 +16,5 @@ CSS
 
 Libiries used 
 Bootstrap and Bootstrap-icons
+
+Please download or fork this page if you want download this project and please star this repo
