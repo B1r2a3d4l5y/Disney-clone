@@ -13,7 +13,6 @@ Langauges used
 
 HTML
 CSS
-JS
 
 Libiries used 
 Bootstrap and Bootstrap-icons
