@@ -17,4 +17,5 @@ CSS
 Libiries used 
 Bootstrap and Bootstrap-icons
 
-Please download or fork this page if you want download this project and please star this repo
+Please use the link to download or fork this repo 
+Please star this repo if you found it useful
